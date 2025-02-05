@@ -62,11 +62,6 @@ Aplikasi web ini memungkinkan pengguna untuk memesan tiket konser secara online.
 *   `style/`: Direktori yang berisi *file-file CSS.
 *   `phpmailer/`: Direktori yang berisi *library* PHPMailer (jika diinstal secara manual).
 
-## Kontribusi
-
-Silakan kirim *pull request* jika Anda ingin berkontribusi pada proyek ini.
-
-## Lisensi
 
 [Pilih lisensi yang sesuai]
 
