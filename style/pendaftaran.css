@@ -1,0 +1,21 @@
+body {
+    background-color: #36393F;
+    color: #E8E8E8;
+}
+.card {
+    background-color: #40444B;
+    color: #E8E8E8;
+}
+.form-control {
+    background-color: #4F535A;
+    border: none;
+    color: #E8E8E8;
+}
+.btn-primary {
+    background-color: #007BFF;
+    border: none;
+}
+.alert-danger {
+    background-color: #DC3545;
+    color: white;
+}

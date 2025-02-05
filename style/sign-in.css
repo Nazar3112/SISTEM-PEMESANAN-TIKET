@@ -1,0 +1,57 @@
+body {
+    background-color: #36393F; /* Darker background */
+    color: #E8E8E8; /* Light text color for contrast */
+    display: flex; /* Center the content vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default margins */
+}
+
+.card {
+    background-color: #40444B; /* Darker card background */
+    color: #E8E8E8; /* Light text color for card */
+    border: none; /* Remove card border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.card-header{
+    background-color: #474B52;
+    border-bottom: 1px solid #555;
+}
+
+.card-footer {
+  background-color: #474B52; /* Match card header background */
+  border-top: 1px solid #555; /* Add a separator line */
+}
+
+.form-control {
+    background-color: #4F535A; /* Darker input background */
+    border: none; /* Remove input border */
+    color: #E8E8E8; /* Light text color for input */
+}
+ .form-control:focus{
+    background-color: #585C63;
+    color: #E8E8E8;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #007BFF; /* Blue button */
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #0069D9;
+    border: none;
+}
+
+.alert-danger {
+    background-color: #DC3545; /* Red alert background */
+    color: white;
+}
+a{
+    color: #007BFF;
+}
+a:hover{
+    color: #0056b3;
+}

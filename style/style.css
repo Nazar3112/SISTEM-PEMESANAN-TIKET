@@ -1,0 +1,189 @@
+/* Global Styles */
+body {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    user-select: none;
+    /* Use a more subtle background or pattern if desired */
+    background-color: #f8f9fa; /* Example: light gray */
+    /* OR use a background image, but consider its impact on performance and readability */
+    /* background-image: url('/TUGAS_AKHIR/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    /* Semi-transparent black */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make the brand more prominent */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important; /* Ensure white text for nav links */
+    margin: 0 10px; /* Add some spacing between nav items */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #dc3545 !important; /* Highlight on hover and active */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .lead {
+    font-family: 'Poppins', sans-serif;
+  }
+
+/* Hero Section */
+.hero {
+    background-image: url('../TUGAS_AKHIR/assets/background.jpg'); /* Use a relevant hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; /* Ensure text is visible against the background */
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem; /* Adjust as needed */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between time boxes */
+}
+
+.time-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for time boxes */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.time-box span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subscribe-box {
+    max-width: 400px; /* Limit the width of the subscription box */
+    margin: 0 auto; /* Center the box */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 20px;
+    background-color: #fff; /* or a very light gray */
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 80px 20px;
+    background-color: #343a40; /* Example dark background */
+    color: white;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+}
+.contact-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contact-form .form-control {
+    background-color: rgba(255, 255, 255, 0.2); /* More transparent white for form fields */
+    border: none;
+    color: white;
+}
+
+.contact-form .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.3); /* Slight increase in transparency on focus */
+    outline: none;
+    box-shadow: none;
+}
+
+
+.contact-form .btn-danger {
+    background-color: #dc3545; /* Keep the Bootstrap danger color */
+    border: none;
+}
+
+.contact-info .info-box {
+    margin-bottom: 30px; /* Spasi antar info box */
+    text-align: center; /* Teks rata tengah */
+}
+
+.contact-info .info-box i {
+    font-size: 30px; /* Ukuran ikon */
+    margin-bottom: 10px; /* Spasi di bawah ikon */
+    color: #007bff; /* Warna ikon */
+}
+
+.contact-info .info-box h3 {
+    margin-bottom: 10px; /* Spasi di bawah judul */
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .time-box span {
+        font-size: 1.5rem;
+    }
+}
